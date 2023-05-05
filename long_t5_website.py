@@ -9,7 +9,7 @@ from transformers import pipeline
 
 # Main function
 def main():
-    base_model = "kworts/BARTxiv" ## you can download and save pertrained is another options
+    base_model = "pszemraj/long-t5-tglobal-base-16384-book-summary" ## you can download and save pertrained is another options
     model = pipeline(
     "summarization",
     base_model,
