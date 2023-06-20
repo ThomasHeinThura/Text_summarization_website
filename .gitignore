@@ -1,2 +1,4 @@
 long_t5
 flagged
+.gitignore
+__pycache__
